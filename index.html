@@ -50,10 +50,10 @@
       <!-- Devices(step 1) -->
       <section class="devices">
         <div class="container">
-          <div class="devices__text-content">
-            <h2 class="devices__title">Välj enhet
+          <div class="text-content">
+            <h2 class="title">Välj enhet
             </h2>
-            <p class="devices__text">Först måste du välja vilken enhet du vill köpa för att koppla till ditt abonnemang från Chili. Du kan välja mellan mobiler, klockor, tablets och PCs.</p>
+            <p class="text">Först måste du välja vilken enhet du vill köpa för att koppla till ditt abonnemang från Chili. Du kan välja mellan mobiler, klockor, tablets och PCs.</p>
           </div>
 
           <ul class="devices__category-list">
@@ -143,11 +143,14 @@
         </div>
       </section>
 
+      <!-- Subscribtion -->
       <section class="subscr">
         <div class="container">
-          <h2 class="subscr__title">Välj abonnemang</h3>
-          <p class="subscr__text">Lägg till ett abonnemang till din nya enhet från en av våra utvalda operatörer.</p>
-          
+          <div class="text-content">
+            <h2 class="title">Välj abonnemang</h3>
+              <p class="text">Lägg till ett abonnemang till din nya enhet från en av våra utvalda operatörer.</p>    
+          </div>
+
           <ul class="benefits__list">
             <li class="benefits__item">
               <h3 class="benefits__title">Alla</h3>
@@ -177,7 +180,109 @@
               <h3 class="benefits__title">Vimla</h3>
             </li>
           </ul>
+
+          <button class="subscr__sort">Sortera</button>
+
+          <ul class="subscr__list">
+            <li class="subscr__item">
+              <div class="subscr__item-text">
+                <h3 class="subscr__item-title">Chilimobil 1 Mbit/s</h3>
+                <ul class="subscr__item-list">
+                  <li class="subscr__item-text">Fri surf</li>
+                  <li class="subscr__item-text">Galaxy buds ingår</li>
+                  <li class="subscr__item-text">Möjlighet att behålla ditt nummer</li>
+                </ul>
+              </div>
+
+              <div>
+                <img src="" alt="" class="subscr__item-icon">
+                <p class="subscr__item-price">65 kr/man</p>
+                <p class="subscr__item-descr">I fyra månader, därefter 129kr/mån</p>
+              </div>
+            </li>
+          </ul>
         </div>
+      </section>
+
+      <!-- Terms and conditions -->
+      <section class="terms">
+        <div class="container">
+          <div class="text-content">
+            <h2 class="title">Välj abonnemang</h2>
+            <input type="checkbox" id="terms-checkbox" class="terms__checkbox">
+            <label for="terms-checkbox" class="terms__label-checkbox">
+              <div class="terms__text">
+                <p class="text">Jag godkänner Tres <a href="#" class="terms__link">allmänna villkor</a> och integritetspolicy samt att en kreditupplysning genomförs med mitt personnummer.<br>
+                  Avtal om abonnemang ingås direkt med Tre. Ditt SIM-kort skickas i en separat försändelse direkt från Tre. Har du beställt med nummerflytt från en annan operatör? Förfrågan om nummerflytten påbörjas när du sätter i ditt nya SIM-kort (annars efter 30 dagar). När nummerflytten är klar får du ett SMS. Då är det fritt fram att börja använda ditt nya Tre-abonnemang, med ditt tidigare nummer. Viktigt att du inte har någon bindningstid kvar hos din nuvarande operatör och att det är du som står som ägare för ditt befintliga abonnemang. Ditt nya SIM-kort levereras inom ca 2 till 5 arbetsdagar. Fakturering för ditt abonnemang kommer ske via Tre.</p>
+              </div>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- Total -->
+      <section class="total">
+        <div class="container">
+          <div class="text-content">
+            <h2 class="title">Total</h3>
+              <p class="text">Pris visas för både direkt betalning och delbetalning. Du väljer hur du vill betala senare i kassan.</p>    
+          </div>
+
+          <div class="total__device">
+            <img src="" alt="" class="total__img">
+            <h3 class="total__title">Galaxy S24 Plus</h3>
+              <p class="total__color-text">Färg: Marble Gray</p>
+              <div class="total__color"></div>
+              <div class="total__device-memory">256 GB</div>
+            </div>
+
+            <!-- One card we need 2 same(or maybe more?) -->
+            <div class="total__info-card">
+              <div class="total__card-header">
+                <h2 class="total__card-title">Vid delbetalning</h2>
+              <p class="total__card-device">Galaxy S24+</p>
+              </div>
+              <ul class="total__card-list">
+                <li class="total__card-item">
+                  <p>Mobil</p>
+                  <p></p>
+                </li>
+                <li class="total__card-item">
+                  <p>Delbetalningsavgift</p>
+                  <p>299 kr</p>
+                </li>
+                <li class="total__card-item">
+                  <p>Månadskostnad</p>
+                  <p>1379 kr/mån</p>
+                </li>
+                <li class="total__card-item">
+                  <p>Abonnemang</p>
+                  <p>Chilimobil 10 Mbit/s</p>
+                </li>
+                <li class="total__card-item">
+                  <p>Månad 1-3</p>
+                  <p>99 kr/mån</p>
+                </li>
+                <li class="total__card-item">
+                  <p>Månad 4-24</p>
+                  <p>199 kr/mån</p>
+                </li>
+              </ul>
+
+              <h3 class="total__card-subtitle">Totalt att betala</h3>
+              <ul class="total__card-list">
+                <li class="total__card-item">
+                  <p>Månad 1-3</p>
+                  <p>1183 kr/mån</p>
+                </li>
+                <li class="total__card-item">
+                  <p>Månad 4-24</p>
+                  <p>1282 kr/mån</p>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <button class="total__btn">Lägg i varukorgen</button>
       </section>
 
     </main>

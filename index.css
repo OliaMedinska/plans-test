@@ -43,7 +43,7 @@ align-items: center;
 .benefits__item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 212px;
     border-radius: 20px;
     padding: 48px 24px;

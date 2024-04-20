@@ -42,11 +42,12 @@ align-items: center;
 
 .benefits__item{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
     width: 212px;
-    height: 280px;
     border-radius: 20px;
+    padding: 48px 24px;
+    gap: 48px;
 }
 
 .benefits__item:nth-child(4n+1){
@@ -65,13 +66,8 @@ align-items: center;
     background-color: #F5F7FE;
 }
 
-.benefits__icon{
-    padding-top: 48px;
-}
-
 .benefits__title{
     text-align: center;
-    padding: 48px 24px 0px;
     font-size: 18px;
     line-height: 1.3;
     font-weight: 700;
@@ -81,9 +77,9 @@ align-items: center;
 /* Devices(step 1) */
 .devices{
     background-color: #F7F7F7;
-    padding: 48px;
     border-radius: 20px;
     margin: 0px 64px;
+    padding: 48px 0px;
 }
 
 .title{
@@ -114,10 +110,6 @@ align-items: center;
     align-items: center;
     flex-direction: column;
     padding: 16px 0px;
-}
-
-.devices__category-item:nth-child(1){
-    justify-content: center;
 }
 
 .devices__category-title{
